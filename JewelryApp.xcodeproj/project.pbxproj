@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		619129E6C1139D337722EB2B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E25CA1E66F1A8816183E8D07 /* libPods.a */; };
+		5270026D126DF50DC0404186 /* libPods-JewelryApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A51BE156D730D2F83157DB5 /* libPods-JewelryApp.a */; };
 		B8090FEF1B08B99A00547AA0 /* BaseModelMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = B8090FEE1B08B99A00547AA0 /* BaseModelMethod.m */; };
 		B8090FF21B08C59300547AA0 /* JWCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B8090FF11B08C59300547AA0 /* JWCollectionViewFlowLayout.m */; };
 		B8090FF51B08D34500547AA0 /* FactoryControllerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B8090FF41B08D34500547AA0 /* FactoryControllerModel.m */; };
@@ -86,8 +86,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		282BDAF624F74F5B0860FD99 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		2D1E9F44F701D4BEBE0A7CE0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		7A51BE156D730D2F83157DB5 /* libPods-JewelryApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JewelryApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2F3AFB88893DA458D79DA8A /* Pods-JewelryApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JewelryApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JewelryApp/Pods-JewelryApp.debug.xcconfig"; sourceTree = "<group>"; };
 		B8090FED1B08B99A00547AA0 /* BaseModelMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModelMethod.h; sourceTree = "<group>"; };
 		B8090FEE1B08B99A00547AA0 /* BaseModelMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModelMethod.m; sourceTree = "<group>"; };
 		B8090FF01B08C59300547AA0 /* JWCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWCollectionViewFlowLayout.h; sourceTree = "<group>"; };
@@ -243,7 +243,7 @@
 		B8DD30E41B15F00A000C8F65 /* CusSeletedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CusSeletedButton.m; sourceTree = "<group>"; };
 		B8DD30E91B160515000C8F65 /* PropertyLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropertyLabel.h; sourceTree = "<group>"; };
 		B8DD30EA1B160515000C8F65 /* PropertyLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PropertyLabel.m; sourceTree = "<group>"; };
-		E25CA1E66F1A8816183E8D07 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6D36A8538992FF9911BF67D /* Pods-JewelryApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JewelryApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-JewelryApp/Pods-JewelryApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -251,26 +251,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				619129E6C1139D337722EB2B /* libPods.a in Frameworks */,
+				5270026D126DF50DC0404186 /* libPods-JewelryApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1E5489A4678363858D8063BD /* Pods */ = {
+		27BB9579B32020B9FAE33526 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2D1E9F44F701D4BEBE0A7CE0 /* Pods.debug.xcconfig */,
-				282BDAF624F74F5B0860FD99 /* Pods.release.xcconfig */,
+				B2F3AFB88893DA458D79DA8A /* Pods-JewelryApp.debug.xcconfig */,
+				C6D36A8538992FF9911BF67D /* Pods-JewelryApp.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		688146727EAA7E9EF2B3B3FC /* Frameworks */ = {
+		7B2D2B4B6F222DBE59DDBF0F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E25CA1E66F1A8816183E8D07 /* libPods.a */,
+				7A51BE156D730D2F83157DB5 /* libPods-JewelryApp.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -592,8 +592,8 @@
 			children = (
 				B8CE2EF51AEFB8290087A5AB /* JewelryApp */,
 				B8CE2EF41AEFB8290087A5AB /* Products */,
-				1E5489A4678363858D8063BD /* Pods */,
-				688146727EAA7E9EF2B3B3FC /* Frameworks */,
+				27BB9579B32020B9FAE33526 /* Pods */,
+				7B2D2B4B6F222DBE59DDBF0F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -669,11 +669,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B8CE2F161AEFB82A0087A5AB /* Build configuration list for PBXNativeTarget "JewelryApp" */;
 			buildPhases = (
-				0DAF9C44C69346291A327D19 /* Check Pods Manifest.lock */,
+				A54FF14D7C58BA991890A9E7 /* 📦 Check Pods Manifest.lock */,
 				B8CE2EEF1AEFB8290087A5AB /* Sources */,
 				B8CE2EF01AEFB8290087A5AB /* Frameworks */,
 				B8CE2EF11AEFB8290087A5AB /* Resources */,
-				C5527209C72A0EC72FF9DF0F /* Copy Pods Resources */,
+				E95F81961A84D94FC4D6085E /* 📦 Embed Pods Frameworks */,
+				F03732910C5756919A6BD566 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -727,14 +728,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0DAF9C44C69346291A327D19 /* Check Pods Manifest.lock */ = {
+		A54FF14D7C58BA991890A9E7 /* 📦 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "📦 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -742,19 +743,34 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		C5527209C72A0EC72FF9DF0F /* Copy Pods Resources */ = {
+		E95F81961A84D94FC4D6085E /* 📦 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "📦 Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JewelryApp/Pods-JewelryApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F03732910C5756919A6BD566 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JewelryApp/Pods-JewelryApp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -926,7 +942,7 @@
 		};
 		B8CE2F171AEFB82A0087A5AB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D1E9F44F701D4BEBE0A7CE0 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = B2F3AFB88893DA458D79DA8A /* Pods-JewelryApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -953,7 +969,7 @@
 		};
 		B8CE2F181AEFB82A0087A5AB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 282BDAF624F74F5B0860FD99 /* Pods.release.xcconfig */;
+			baseConfigurationReference = C6D36A8538992FF9911BF67D /* Pods-JewelryApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

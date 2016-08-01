@@ -3,6 +3,9 @@
 
 
 platform :ios, '7.0'
+
+target 'JewelryApp' do
+
 inhibit_all_warnings!
 
 pod 'SDWebImage', '~>3.7'
@@ -14,3 +17,4 @@ pod 'ASIHTTPRequest','~>1.8.2'
 pod 'NGOSegmentControl','~>1.0.1'
 pod 'UMengAnalytics'
 
+end
